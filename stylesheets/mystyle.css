@@ -1,0 +1,171 @@
+.nav-link:hover {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+#card {
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+}
+
+
+/*Features*/
+
+.features {
+    background-color: #f4f7f9;
+    margin: 20px;
+    margin-bottom: auto;
+    padding-bottom: 30px;
+}
+
+.ft {
+    font-size: 35px;
+    margin-top: 50px;
+    font-family: Cambria;
+    font-weight: 100;
+    text-align: center;
+}
+
+.service-icon {
+    border: 1px solid grey;
+    border-radius: 50%;
+    color: grey;
+    float: left;
+    padding: 10px 13px;
+}
+
+.service-desc {
+    margin-left: 70px;
+    position: relative;
+    top: 5px;
+}
+
+.service-desc h3 {
+    color: #062033;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+
+/*Works*/
+
+.div {
+    text-align: center;
+    font-family: Cambria;
+    padding: 50px;
+}
+
+.wk {
+    font-size: 35px;
+    font-family: Cambria;
+    font-weight: 100;
+    text-align: center;
+}
+
+img {
+    --tw-shadow: 25px 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border: transparent 0.2px;
+}
+
+img:hover {
+    animation: heartBeat;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+.txt {
+    font-size: larger;
+    font-family: Cambria;
+}
+
+.team {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+/*Contact Us*/
+
+#contact-us {
+    background-color: #f4f7f9;
+    margin: 20px;
+    margin-bottom: auto;
+    padding-bottom: 30px;
+}
+
+
+/*=========================================
+	Contact Us
+==========================================*/
+
+.contact {
+    padding-bottom: 0;
+}
+
+.contact-address h3 {
+    color: #062033;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.contact-address p {
+    line-height: 24px;
+}
+
+.contact-form h3 {
+    color: #062033;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.contact-form .input-group {
+    width: 100%;
+}
+
+.contact-form .form-control {
+    border-color: -moz-use-text-color -moz-use-text-color #cccccc;
+    border-radius: 0;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.contact-form .input-field {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.contact-form .input-field:last-child {
+    margin-right: 0;
+}
+
+.contact-form .form-control.error {
+    border-bottom-color: #c0392b;
+}
+
+label.error {
+    color: #c0392b;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.contact-form #form-submit {
+    background: green no-repeat scroll 0 15px transparent;
+    border: 0 none;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+    text-align: right;
+    width: 150px;
+}
